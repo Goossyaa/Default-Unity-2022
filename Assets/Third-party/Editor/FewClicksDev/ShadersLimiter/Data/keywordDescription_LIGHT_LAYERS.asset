@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d58fff4b3a55e6f438df239da947fb75, type: 3}
+  m_Name: keywordDescription_LIGHT_LAYERS
+  m_EditorClassIdentifier: 
+  keywordName: _LIGHT_LAYERS
+  description: Light Layers allow you to control which lights affect which objects
+    in your scene. You can enable them in the rendering pipeline asset. In the newer
+    version, it's called "Rendering Layers".
+  showAdditionalMessage: 1
+  additionalMessageType: 2
+  additionalMessage: Using light layers can help you achieve some custom effects,
+    but it will degrade the overall performance of your game.
+  documentationLinks:
+  - Title: Light Layers
+    DocumentationLink: https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@12.0/manual/lighting/light-layers.html
+  - Title: Rendering Layers
+    DocumentationLink: https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@14.0/manual/features/rendering-layers.html

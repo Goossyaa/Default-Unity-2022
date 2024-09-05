@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d58fff4b3a55e6f438df239da947fb75, type: 3}
+  m_Name: keywordDescription_PROBE_VOLUMES_L1
+  m_EditorClassIdentifier: 
+  keywordName: PROBE_VOLUMES_L1
+  description: Probe volumes is a new system delivered by Unity to automate light
+    probe placement based on geometry density in your scene.
+  showAdditionalMessage: 0
+  additionalMessageType: 1
+  additionalMessage: 
+  documentationLinks:
+  - Title: Probe Volumes
+    DocumentationLink: https://docs.unity.cn/Packages/com.unity.render-pipelines.high-definition@14.0/manual/probevolumes-concept.html
+  - Title: Light Probes
+    DocumentationLink: https://docs.unity3d.com/Manual/LightProbes.html
+  - Title: Indirect Lighting
+    DocumentationLink: https://docs.unity3d.com/Manual/LightMode-Mixed-BakedIndirect.html

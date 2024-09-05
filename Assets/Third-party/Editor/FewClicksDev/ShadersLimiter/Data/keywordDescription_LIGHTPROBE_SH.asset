@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d58fff4b3a55e6f438df239da947fb75, type: 3}
+  m_Name: keywordDescription_LIGHTPROBE_SH
+  m_EditorClassIdentifier: 
+  keywordName: LIGHTPROBE_SH
+  description: Light probes store baked information about the lighting in your scene.
+    They increase the overall lighting quality for dynamic and static objects by
+    providing indirect bounced light.
+  showAdditionalMessage: 0
+  additionalMessageType: 1
+  additionalMessage: 
+  documentationLinks:
+  - Title: Light Probes
+    DocumentationLink: https://docs.unity3d.com/Manual/LightProbes.html
+  - Title: Scripting Reference
+    DocumentationLink: https://docs.unity3d.com/ScriptReference/LightProbes.html

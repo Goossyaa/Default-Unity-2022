@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d58fff4b3a55e6f438df239da947fb75, type: 3}
+  m_Name: keywordDescription_ALPHATEST_ON
+  m_EditorClassIdentifier: 
+  keywordName: _ALPHATEST_ON
+  description: Alpha testing is used to determine if a pixel should be visible or
+    not. Usually, there is a certain threshold that tells Unity to skip drawing a
+    pixel.
+  showAdditionalMessage: 1
+  additionalMessageType: 1
+  additionalMessage: Using Alpha Clip instead of transparency can give you a performance
+    boost.
+  documentationLinks:
+  - Title: Legacy Alpha Testing
+    DocumentationLink: https://docs.unity3d.com/2020.1/Documentation/Manual/SL-AlphaTest.html

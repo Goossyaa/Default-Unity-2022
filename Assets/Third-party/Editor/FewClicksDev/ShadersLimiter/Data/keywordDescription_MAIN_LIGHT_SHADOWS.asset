@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d58fff4b3a55e6f438df239da947fb75, type: 3}
+  m_Name: keywordDescription_MAIN_LIGHT_SHADOWS
+  m_EditorClassIdentifier: 
+  keywordName: _MAIN_LIGHT_SHADOWS
+  description: Keyword enabling shadow casting on the main directional ight.
+  showAdditionalMessage: 1
+  additionalMessageType: 2
+  additionalMessage: Keep in mind that there is a separate keyword that enables soft
+    shadows, so if you are using them, make sure that the SOFT_SHADOWS keyword is
+    enabled.
+  documentationLinks:
+  - Title: Lighting
+    DocumentationLink: https://docs.unity3d.com/Manual/Lighting.html
+  - Title: Shadows
+    DocumentationLink: https://docs.unity3d.com/560/Documentation/Manual/ShadowOverview.html#:~:text=Unity's%20lights%20can%20cast%20Shadows,that%20can%20otherwise%20look%20flat.

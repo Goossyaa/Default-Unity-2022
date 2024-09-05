@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d58fff4b3a55e6f438df239da947fb75, type: 3}
+  m_Name: keywordDescription_MAIN_LIGHT_SHADOWS_CASCADE
+  m_EditorClassIdentifier: 
+  keywordName: _MAIN_LIGHT_SHADOWS_CASCADE
+  description: Responsible for shadow cascades on the main directional light. Strip
+    this keyword if you don't plan to use any shadow cascades in your game.
+  showAdditionalMessage: 1
+  additionalMessageType: 2
+  additionalMessage: If you use shadow cascades in the project and strip this keyword,
+    most likely all shadows will be missing in the build!
+  documentationLinks:
+  - Title: Shadow cascades
+    DocumentationLink: https://docs.unity3d.com/Manual/shadow-cascades.html#:~:text=Using%20Shadow%20Cascades,-When%20you%20configure&text=The%20more%20cascades%20you%20use,map%20across%20the%20whole%20shadow.

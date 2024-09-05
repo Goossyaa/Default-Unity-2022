@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d58fff4b3a55e6f438df239da947fb75, type: 3}
+  m_Name: keywordDescription_ADDITIONAL_LIGHTS
+  m_EditorClassIdentifier: 
+  keywordName: _ADDITIONAL_LIGHTS
+  description: Additional lights calculated per pixel in the scene (other than directional)
+    Some render pipelines have limits on the additional light count (e.g., URP has
+    a limit of 8 additional lights on the screen). Strip if you plan to use only
+    one light (directional).
+  showAdditionalMessage: 1
+  additionalMessageType: 1
+  additionalMessage: Additional lights (with or without shadows) have different performance
+    impacts depending on the used rendering path.
+  documentationLinks:
+  - Title: Lights in Unity
+    DocumentationLink: https://docs.unity3d.com/Manual/class-Light.html
+  - Title: Rendering paths
+    DocumentationLink: https://learn.unity.com/tutorial/understanding-rendering-paths

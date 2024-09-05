@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d58fff4b3a55e6f438df239da947fb75, type: 3}
+  m_Name: keywordDescription_SHADOWS_SHADOWMASK
+  m_EditorClassIdentifier: 
+  keywordName: SHADOWS_SHADOWMASK
+  description: This keyword allows the use of static shadows baked into the lightmap
+    textures. This can improve overall visual quality, as close shadows will be rendered
+    in real time while others in the far distance will be rendered as baked.
+  showAdditionalMessage: 0
+  additionalMessageType: 1
+  additionalMessage: 
+  documentationLinks:
+  - Title: 'Lighting Mode: Shadowmask'
+    DocumentationLink: https://docs.unity3d.com/Manual/LightMode-Mixed-Shadowmask.html
