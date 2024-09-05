@@ -92,10 +92,6 @@ firebase-debug.*.log*
 # RayFire
 /[Aa]ssets/[Rr]ayFire/[Pp]]lugins/[Ii]os/
 
-# Hiererchy Pro
-/[Aa]ssets/Third-party/Editor/HierarchyPro/Editor/_SAVED_DATA/_SCENES/Assets/* 
-!/[Aa]ssets/Third-party/Editor/HierarchyPro/Editor/_SAVED_DATA/_SCENES/Assets/Level/*
-
 # Yandex game
 /[Aa]ssets/YandexGame/ScriptsYG/Editor/PostProcessBuild/ModifyIndexFile/BuildLogYG.txt
 /[Aa]ssets/YandexGame/WorkingData/Editor/*
