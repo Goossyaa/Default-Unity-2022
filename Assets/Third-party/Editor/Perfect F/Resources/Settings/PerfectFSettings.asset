@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1def0400e5aa0144aabbaabce5105704, type: 3}
   m_Name: PerfectFSettings
   m_EditorClassIdentifier: 
-  fLocation: 0
+  fLocation: 1
   enabled: 1
   numPadEnabled: 1
   lookAtObject: 1
